@@ -103,9 +103,9 @@ elif sys.platform.startswith('win'):  # Windows
 
 # Linux compilation: flags are for gcc 4.8 and later
 
-else:  # Linux
-    extra_compile_args += ['-fopenmp']
-    extra_link_args += ['-lgomp']
+# else:  # Linux
+#     extra_compile_args += ['-fopenmp']
+#     extra_link_args += ['-lgomp']
 
 
 cyaccess = Extension(
